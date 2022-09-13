@@ -4,9 +4,17 @@
     justify-content: space-between;
     margin: 0 auto;
     flex-wrap: wrap;
-    font-size: 100px;;
 }
 
 .min-hght {
  min-height: 75%;
+}
+
+.start {
+    justify-content: flex-start;
+}
+
+.column {
+    flex-direction: column;
+    justify-content: flex-start;
 }
